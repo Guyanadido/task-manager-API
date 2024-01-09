@@ -13,3 +13,5 @@ app.use(tasksRouter)
 app.listen(port, () => {
     console.log('server started on port ' + port)
 }) 
+
+module.exports = app;
